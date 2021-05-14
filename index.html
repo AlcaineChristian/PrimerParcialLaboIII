@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcaine.Tomas.3C</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/pparcial.js"></script>
+</head>
+<body>
+    <div id="divPadre">
+        <div id="divSpinner" class="spinner" hidden></div>
+        <div id="divTabla">
+            <table id="tabla">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cuatrimestre</th>
+                    <th>FechaFinal</th>
+                    <th>Turno</th>
+                </tr>
+            </table>
+        </div>
+      
+        <div id="divMateria" hidden>
+            <input type="button" value="X" id="btnCerrar" class="btn">
+            <br>
+            <label for="txtNombre">Nombre</label>
+            <br>
+            <input type="text" name="txtNombre" id="txtNombre">
+            <br>
+            <label for="txtCuatrimestre" >Cuatrimestre</label>
+            <br>
+            <input type="text" name="txtCuatrimestre" id="txtCuatrimestre" readonly>
+            <br>
+            <label for="txtFechaFinal">Fecha final</label>
+            <br>
+            <input type="text" name="txtFechaFinal" id="txtFechaFinal">
+            <br>
+            <label for="rdoTurno">Turno</label>
+            <br>
+            <input type="radio" name="turno" id="mañana1" value="mañana">
+            <label for="turno">Mañana</label>
+            <br>
+            <input type="radio" name="turno" id="noche" value="noche">
+            <label for="turno">Noche</label>
+            <br>
+            <input type="button" value="Eliminar" id="btnEliminar" class="btn">
+            <input type="button" value="Modificar" id="btnModificar" class="btn">
+        </div>
+
+        
+    </div>
+</body>
+</html> 
