@@ -75,19 +75,28 @@
     background-color: rgb(153, 0, 0);
     font-size: 1.5rem;
     border-radius: 5px;
+    position: absolute;
+    right : 65%;
+    bottom : 5%
+}
+#txtNombre{
+    position:center;
 }
 #btnCerrar
 {
     background-color: rgb(255, 0, 0);
     font-size: 1rem;
     border-radius: 1rem;
+    
 }
 #btnModificar
 {
     background-color: rgb(0, 153, 25);
     font-size: 1.5rem;
     border-radius: 5px;
-    
+    position: absolute;
+    left : 60%;
+    bottom : 5%
 }
 
 .spinner 
